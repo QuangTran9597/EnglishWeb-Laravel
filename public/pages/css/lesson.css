@@ -1,0 +1,72 @@
+html{
+    height: 100%;
+}
+body{
+    background-image: url('../image/wood.png');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center ; 
+    height: 100%;
+    background-attachment: fixed;
+}
+
+ /* them */
+/* .tuvung li{
+    display: none;
+} */
+/* .wrap .tuvung .active{
+    display: block;
+} */
+/* .tuvung .item:not(:first-child){
+    display: none;
+} */
+.item:not(.active) {
+    display:none;
+}
+
+/* --------*/
+
+ul li{
+    list-style: none;
+}
+.content__header{
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.content__image{
+    padding: 0 15%;
+    text-align: center;
+}
+.content__image img{
+    width: 50%;
+    /* height: 400px; */
+    /* height: auto; */
+}
+.button{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+  /* top: 100%; */
+}
+.content__word{
+    text-align: center;
+}
+.content__word p{
+    font-size: 60px;
+    color: white;
+} 
+.button__item{
+    width: 10%;
+}
+.button img{
+    width: 100%;
+}
+#back-button{
+    width: 100px;
+    float: left;
+}
+#topic_name{
+    font-weight: 600;
+    font-style: italic;
+}
